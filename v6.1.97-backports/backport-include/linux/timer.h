@@ -72,7 +72,7 @@ static inline void timer_setup(struct timer_list *timer,
 	!LINUX_VERSION_IN_RANGE(4,19,255, 4,20,0) &&	\
 	!LINUX_VERSION_IN_RANGE(5,4,255, 5,5,0) &&	\
 	!LINUX_VERSION_IN_RANGE(5,10,215, 5,11,0) &&	\
-	!LINUX_VERSION_IN_RANGE(5,15,154, 5,16,0)
+	!LINUX_VERSION_IN_RANGE(5,15,171, 5,16,0)
 static inline int timer_delete_sync(struct timer_list *timer)
 {
 	return del_timer_sync(timer);
